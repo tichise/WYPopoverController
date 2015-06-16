@@ -2014,7 +2014,7 @@ static WYPopoverTheme *defaultTheme_ = nil;
             
             if (strongSelf)
             {
-                strongSelf->overlayView.alpha = 1;
+                strongSelf->overlayView.alpha = 0.7;
                 strongSelf->backgroundView.alpha = 1;
                 strongSelf->backgroundView.transform = endTransform;
             }
